@@ -329,7 +329,6 @@
 
     }
 
-    // iP ~8plus
     @media (min-height: 1024px),  (min-width: 500px){
         .login .app-logo {
             top: -2rem;
@@ -348,9 +347,17 @@
         }
     }
 
+    @media (max-height: 660px){
+        .app-logo {
+           display: none;
+        }
 
-       
+        .footer {
+            position: inherit !important;
+        }
 
+
+    }
 
 </style>
 
